@@ -1,0 +1,355 @@
+body {
+  background-color: hsl(217, 28%, 15%);
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+.headnav {
+  padding: 50px;
+  overflow: hidden;
+}
+.logo {
+  float: left;
+}
+.navigation {
+  float: right;
+}
+.navs {
+  color: #fff;
+  text-decoration: none;
+}
+.eachnav {
+  float: left;
+  padding-left: 50px;
+  list-style: none;
+  text-align: right;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.introimage {
+  text-align: center;
+  clear: both;
+  width: 100%;
+  margin-top: 100px;
+}
+.imagetext {
+  background: url(images/bg-curvy-desktop.svg);
+  text-align: center;
+  clear: both;
+  background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  height: 100%;
+}
+.imageheading {
+  text-align: center;
+}
+.imageheadtext {
+  color: #fff;
+  font-size: 38px;
+  text-align: center;
+  margin: 10px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+.imageinfo {
+  color: #fff;
+  font-size: 22px;
+  line-height: 34px;
+  margin-top: 40px;
+}
+.startbutton {
+  height: 50px;
+  width: 150px;
+  border-radius: 50px 50px 50px 50px;
+  border: none;
+  background-color: hsl(176, 68%, 64%);
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+}
+.buttondiv {
+  margin: 40px 0px 0px 0px;
+}
+.nextcon {
+  background-color: hsl(218, 28%, 13%);
+  padding-bottom: 250px;
+}
+
+.servicespane {
+  padding-top: 100px;
+  width: 100%;
+  background-color: hsl(218, 28%, 13%);
+}
+h1 {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+.service {
+  text-align: center;
+  margin: 0 9.5% 0 9.5%;
+  width: 30%;
+  float: left;
+  padding-top: 50px;
+}
+.serviceheading {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+}
+.servicetext {
+  color: #fff;
+  line-height: 24px;
+  margin: 10px;
+}
+.productive {
+  clear: left;
+  width: 100%;
+  padding-top: 100px;
+  color: #fff;
+}
+.productimage {
+  width: 40%;
+  margin-right: 3%;
+  margin-left: 5%;
+  float: left;
+  text-align: center;
+  padding-right: 5%;
+}
+.producttext {
+  width: 40%;
+  margin-left: 5%;
+  float: left;
+  color: #fff;
+  margin-top: 8%;
+}
+.fylolink {
+  color: hsl(176, 68%, 64%);
+  border-bottom: 1px solid hsl(176, 68%, 64%);
+}
+.fylolink:hover {
+  color: hsl(176, 68%, 64%);
+  border-bottom: 1px solid hsl(176, 68%, 64%);
+  text-decoration: none;
+}
+
+.testimony {
+  clear: left;
+  background: url(images/bg-quotes.png);
+  text-align: left;
+  line-height: 24px;
+  clear: both;
+  background-repeat: no-repeat;
+  margin-left: 100px;
+  color: #fff;
+  margin-top: 400px;
+  padding: 30px 0 0px 10px;
+}
+.mid {
+  margin-top: 650px;
+}
+.testimonycard {
+  width: 26%;
+  background-color: hsl(219, 30%, 18%);
+  border-radius: 5px;
+  padding: 30px;
+  float: left;
+  margin-right: 10px;
+}
+.profile {
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+  padding-right: 15px;
+}
+.clearleft {
+  clear: left;
+}
+footer {
+  padding: 100px;
+  background-color: hsl(216, 53%, 9%);
+  color: #fff;
+  height: 100px;
+  padding-top: 200px;
+}
+.about {
+  width: 26%;
+  float: left;
+}
+.marker {
+  float: left;
+  width: 30px;
+  height: 70px;
+}
+.abouttext {
+  padding-top: 40px;
+}
+.contact {
+  padding-top: 93px;
+  margin-left: 60px;
+  float: left;
+  width: 15%;
+}
+.icon {
+  float: left;
+  width: 30px;
+}
+.links {
+  float: left;
+  padding-top: 76px;
+  margin-left: 60px;
+}
+ol {
+  list-style: none;
+  line-height: 24px;
+}
+.linkchild {
+  float: left;
+  width: 100%;
+}
+.socials {
+  padding-top: 96px;
+  color: #fff;
+  float: right;
+}
+.socialicon {
+  padding-right: 30px;
+}
+.earlyaccess {
+  margin-top: -100px;
+  background-color: hsl(217, 28%, 15%);
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: auto;
+  position: absolute;
+  color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+}
+.accesstext {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.earlyform {
+  height: 10px;
+  width: 65%;
+  margin-right: 5%;
+  border-radius: 50px 50px 50px 50px;
+  border: none;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 935px) and (max-width: 1017px) {
+  .powerimage {
+    height: 350px;
+  }
+  .earlyaccess {
+    margin-top: -150px;
+  }
+  .links {
+    margin-left: 0;
+  }
+  .contact {
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 729px) and (max-width: 934px) {
+  .imageintro {
+    height: 400px;
+  }
+  .powerimage {
+    height: 250px;
+  }
+  .producttext {
+    margin-top: 0px;
+  }
+  .mid {
+    margin-top: 350px;
+  }
+  .earlyaccess {
+    margin-top: -180px;
+  }
+  footer {
+    height: 250px;
+  }
+  .about {
+    width: 20%;
+  }
+  .links {
+    margin-left: 0;
+  }
+  .contact {
+    margin-left: 20px;
+    width: 35%;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 729px) {
+  .imageintro {
+    height: 300px;
+  }
+  .service {
+    width: 80%;
+    margin-right: auto;
+    margin-left: 60px;
+  }
+  .productimage {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .producttext {
+    width: 90%;
+  }
+
+  .testimony {
+    margin-left: 20px;
+    margin-top: 610px;
+  }
+
+  .testimonycard {
+    width: 80%;
+
+    margin-right: 10%;
+    margin-top: 20px;
+  }
+
+  .earlyaccess {
+    width: 80%;
+    text-align: center;
+    margin-left: 4%;
+    margin-right: 5%;
+    margin-top: -200px;
+  }
+  .about {
+    width: 100%;
+  }
+  .contact {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .links {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .powerimage {
+    height: 200px;
+  }
+  .socials {
+    float: left;
+  }
+  .navigation {
+    font-size: 10px;
+  }
+  footer {
+    height: 700px;
+  }
+}
